@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+:root { font-family: Inter, system-ui, sans-serif; color: #183c34; background: #f3f2ec; font-synthesis: none; }
+body { margin: 0; padding: 56px 20px 28px; }
+.app { width: 100%; max-width: 640px; margin: 0 auto; }
+.eyebrow { font-size: .72rem; font-weight: 750; letter-spacing: .16em; margin: 0 0 18px; }
+h1 { font-size: clamp(2rem, 6vw, 3.25rem); line-height: 1.12; letter-spacing: -.045em; font-weight: 650; margin: 0; }
+h1 span { color: #9b5b31; }
+.intro { color: #52655d; line-height: 1.6; margin: 20px 0 30px; }
+.testimonial-card { position: relative; padding: 28px 32px 32px; background: #fffefa; border: 1px solid #dedfd5; border-radius: 20px; box-shadow: 0 12px 32px #183c3408; overflow-wrap: anywhere; }
+.quote-mark { display: block; color: #397060; font-family: Georgia, serif; font-size: 5rem; height: 65px; line-height: 1.1; }
+blockquote { margin: 10px 0 30px; font-family: Georgia, serif; font-size: clamp(1.2rem, 4vw, 1.65rem); line-height: 1.55; min-height: 122px; }
+.person { display: flex; align-items: center; gap: 16px; }
+.testimonial-photo { flex-shrink: 0; display: block; border-radius: 50%; object-fit: cover; background: #dbe8e1; }
+h2 { margin: 0; font-size: 1.05rem; }
+.testimonial-role { color: #52655d; margin: 6px 0 0; font-size: .9rem; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+button { font: inherit; font-size: .9rem; min-height: 46px; padding: 12px 18px; border: 1px solid #657e71; border-radius: 9px; background: transparent; color: #183c34; cursor: pointer; }
+button:hover { background: #e0e9df; }
+button:focus-visible { outline: 3px solid #125ca3; outline-offset: 4px; }
+.random { background: #174d43; border-color: #174d43; color: white; margin-left: auto; }
+.random:hover { background: #103b32; }
+.counter { margin: 20px 0; color: #52655d; font-size: .85rem; }
+footer { margin-top: 36px; border-top: 1px solid #d7dcd2; padding-top: 18px; color: #52655d; font-size: .75rem; line-height: 1.6; }
+.empty { padding: 30px 0; }
+@media (max-width: 360px) { body { padding: 30px 16px 20px; } .testimonial-card { padding: 20px; } .random { margin-left: 0; } button { flex-grow: 1; } .person { gap: 12px; } }
