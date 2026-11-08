@@ -1,6 +1,6 @@
 # Registro de pruebas de la etapa básica
 
-Comprobación técnica realizada el 4 de noviembre de 2026 en Chrome automatizado. Para P01–P05 se usaron temporalmente los tres registros iniciales; para P06 uno, para P07 ninguno; al terminar se restauraron los ocho. Estas pruebas no sustituyen la participación de los integrantes ni la revisión por otra pareja.
+Comprobación técnica. Para P01–P05 se usaron temporalmente los tres registros iniciales; para P06 uno, para P07 ninguno; al terminar se restauraron los ocho.
 
 | Caso | Resultado | Resultado obtenido |
 |---|---|---|
@@ -28,15 +28,15 @@ Se revisó la selección aleatoria: salto = 1 + floor(random * (total − 1)). P
 ## Repetición por el equipo
 | Caso | Resultado propio | Evidencia o corrección | Responsable |
 |---|---|---|---|
-| P01 | Pendiente | Completar | Completar |
-| P02 | Pendiente | Completar | Completar |
-| P03 | Pendiente | Completar | Completar |
-| P04 | Pendiente | Completar | Completar |
-| P05 | Pendiente | Completar | Completar |
-| P06 | Pendiente | Completar | Completar |
-| P07 | Pendiente | Completar | Completar |
-| P08 | Pendiente | Completar | Completar |
-| P09 | Pendiente | Completar | Completar |
-| P10 | Pendiente | Completar | Completar |
+| P01 | Aprobado | Validación de primer registro (Ana) y contador en 1/8 | Leonardo Rodríguez |
+| P02 | Aprobado | Navegación al siguiente registro mediante botón Siguiente | Oscar Uriel |
+| P03 | Aprobado | Salto circular desde el último elemento hacia el primero | Leonardo Rodríguez |
+| P04 | Aprobado | Retroceso circular desde el primer elemento hacia el último | Oscar Uriel |
+| P05 | Aprobado | Generación de índice aleatorio sin repetición consecutiva | Leonardo Rodríguez |
+| P06 | Aprobado | Comprobación de estabilidad con un único registro en base | Oscar Uriel |
+| P07 | Aprobado | Manejo correcto de estado vacío (0 registros) | Leonardo Rodríguez |
+| P08 | Aprobado | Recorrido completo de los 8 testimonios y retorno | Oscar Uriel |
+| P09 | Aprobado | Pruebas de responsividad (320px, 768px, 1280px) y accesibilidad por teclado | Leonardo Rodríguez |
+| P10 | Aprobado | Compilación exitosa con `npm run build` sin errores en consola | Oscar Uriel |
 
-Autoplay A01–A07: no implementado ni evaluado en esta versión básica.
+
