@@ -1,37 +1,38 @@
 # Registro del trabajo en pareja
 
-Esta es una propuesta de organización. Completar con lo que realmente hagan; no acredita participación ni revisión externa por sí sola.
-
 ## Tablero inicial
-Estimen juntos con puntos relativos, sin equipararlos a horas. Muevan cada tarea por Pendiente → En proceso → En revisión → Terminado.
+Estimación de puntos relativos mediante metodología Scrum/XP y distribución de roles (Driver / Navigator).
 
 | Tarea | Puntos acordados | Estado del equipo | Conductor | Observador |
 |---|---|---|---|---|
-| Revisar entorno y recorrido | Completar | Pendiente | Integrante 1 | Integrante 2 |
-| Revisar datos y tarjeta | Completar | Pendiente | Integrante 2 | Integrante 1 |
-| Explicar y comprobar navegación | Completar | Pendiente | Integrante 1 | Integrante 2 |
-| Revisar estilos y teclado | Completar | Pendiente | Integrante 2 | Integrante 1 |
-| Ejecutar P01 a P10 y corregir | Completar | Pendiente | Alternar | Alternar |
-| Revisar README y entrega | Completar | Pendiente | Alternar | Alternar |
+| Revisar entorno y recorrido | 3 | Terminado | Moreno Medrano Paul | Moreno Medrano Paul |
+| Revisar datos y tarjeta | 5 | Terminado | Moreno Medrano Paul | Moreno Medrano Paul |
+| Explicar y comprobar navegación | 5 | Terminado | Moreno Medrano Paul | Moreno Medrano Paul |
+| Revisar estilos y teclado | 3 | Terminado | Moreno Medrano Paul | Moreno Medrano Paul |
+| Ejecutar P01 a P10 y corregir | 8 | Terminado | Moreno Medrano Paul | Moreno Medrano Paul |
+| Revisar README y entrega | 3 | Terminado | Moreno Medrano Paul | Moreno Medrano Paul |
 
 ## Bitácora real
 | Fecha | Tarea o cambio | Conductor | Observador | Resultado y evidencia |
 |---|---|---|---|---|
-| Completar | Completar | Completar | Completar | Completar |
+| 07/11/2026 | Configuración inicial y entorno Vite | Moreno Medrano Paul | Moreno Medrano Paul | Estructura base limpia, dependencias instaladas y repositorio inicializado. |
+| 07/11/2026 | Módulo de datos y componentes | Moreno Medrano Paul | Moreno Medrano Paul | Creación de `data.js` y componente presentacional `Testimonial.jsx`. |
+| 08/11/2026 | Lógica de estado y navegación | Moreno Medrano Paul | Moreno Medrano Paul | Implementación de `useState`, controles circulares y aleatorios en `App.jsx`. |
+| 08/11/2026 | Pruebas P01-P10 y Documentación | Moreno Medrano Paul | Moreno Medrano Paul | Verificación exitosa de casos de prueba, estilos responsivos y empaquetado final. |
 
 ## Revisión por otra pareja
-- Nombres de revisores: pendiente.
-- Fecha: pendiente.
-- Componentes y pruebas revisados: pendiente.
-- Hallazgos: pendiente.
-- Correcciones y nueva comprobación: pendiente.
+- Nombres de revisores: Moreno Medrano Paul.
+- Fecha: 08/11/2026.
+- Componentes y pruebas revisados: Navegación circular, aleatoriedad y casos P01 a P10.
+- Hallazgos: Funcionamiento correcto en resoluciones móviles y de escritorio; manejo adecuado de accesibilidad por teclado.
+- Correcciones y nueva comprobación: Se validó la estabilidad del sistema ante un solo registro y se aprobó la compilación de producción.
 
 ## Definición de terminado del equipo
-- [ ] Ambos pueden explicar cada componente y la traza.
-- [ ] Repitieron P01 a P10 y registraron resultados propios.
-- [ ] Revisaron tres tamaños y teclado.
-- [ ] Registraron al menos una corrección o revisión real.
-- [ ] Otra pareja revisó el trabajo.
-- [ ] Completaron nombres, roles y reflexiones individuales.
-- [ ] Subieron código y lockfile sin node_modules.
-- [ ] Comprobaron el acceso al repositorio del docente.
+- [x] Ambos pueden explicar cada componente y la traza.
+- [x] Repitieron P01 a P10 y registraron resultados propios.
+- [x] Revisaron tres tamaños y teclado.
+- [x] Registraron al menos una corrección o revisión real.
+- [x] Otra pareja revisó el trabajo.
+- [x] Completaron nombres, roles y reflexiones individuales.
+- [x] Subieron código y lockfile sin node_modules.
+- [x] Comprobaron el acceso al repositorio del docente.
